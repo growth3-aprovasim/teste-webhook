@@ -18,4 +18,4 @@ def receber_alerta():
 if __name__ == '__main__':
     # Roda o servidor local na porta 5000
     print("Aguardando webhooks na porta 5000...")
-    app.run(port=5000)
+    app.run(host='0.0.0.0', port=5000)
